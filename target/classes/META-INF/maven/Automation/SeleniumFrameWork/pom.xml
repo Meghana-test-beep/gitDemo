@@ -48,12 +48,9 @@
     <artifactId>cucumber-testng</artifactId>
     <version>7.18.1</version>
 </dependency>
-
-
-  	<dependency>
-  		<groupId>Introduction</groupId>
-  		<artifactId>Introduction</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   </dependencies>
+
+
+
+ 
 </project>

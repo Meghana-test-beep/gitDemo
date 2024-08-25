@@ -17,6 +17,8 @@ public class BaseTest  {
 	public WebDriver initializeDriver() throws IOException
 	{
 		this.driver=driver;
+		System.out.println("Hello Welocome as you have logged in");
+		System.out.println("Hello Welocome as you have logged in");
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src//main//java//rahulshettyacademy//resources//GlobalData.properties");
 		prop.load(fis);
