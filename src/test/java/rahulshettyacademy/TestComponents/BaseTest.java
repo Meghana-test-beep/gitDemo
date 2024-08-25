@@ -28,7 +28,8 @@ public class BaseTest  {
 		{
 		System.setProperty("webdriver.gecko.driver","C:/Drivers/geckodriver-v0.33.0-win64/geckodriver.exe");
 		FirefoxDriver driver = new FirefoxDriver();
-		driver.manage().window().maximize(); 
+		driver.manage().window().maximize();
+		System.out.println("landing page");
 	}
 		else if(BrowserName.contains("chrome"))
 		{
