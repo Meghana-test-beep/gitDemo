@@ -18,7 +18,7 @@ public class BaseTest  {
 	{
 		this.driver=driver;
 		System.out.println("Hello Welocome as you have logged in");
-		System.out.println("Hello Welocome as you have logged in");
+		System.out.println("executing the base test ");
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src//main//java//rahulshettyacademy//resources//GlobalData.properties");
 		prop.load(fis);
@@ -26,6 +26,7 @@ public class BaseTest  {
 		
 		if(BrowserName.contains("firefox"))
 		{
+			System.out.println("opening the firefox ");
 		System.setProperty("webdriver.gecko.driver","C:/Drivers/geckodriver-v0.33.0-win64/geckodriver.exe");
 		FirefoxDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
