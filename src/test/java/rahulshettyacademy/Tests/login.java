@@ -34,6 +34,7 @@ public class login extends BaseTest{
 		
 
 		ProductCatalogue productcatalogue = new ProductCatalogue(driver);
+		System.out.println("Hello Welocome as you have logged in");
 
 List<WebElement>products = productcatalogue.getProductList();
 productcatalogue.addProductToCart(productName);
